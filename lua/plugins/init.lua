@@ -13,6 +13,12 @@ return {
     end,
   },
 
+  {
+    "LhKipp/nvim-nu",
+    build = ':TSInstall nu',
+    opts = {}
+  },
+
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
